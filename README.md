@@ -10,9 +10,9 @@ The scheduler is simple to use and only requires the user to type into the appro
 
 ***Note*** - All rows are green in the demo because it conducted after midnight. The date automatically changes to the following day and the scheduler color coding will reset. 
 
-![](Develop/images/empty-schedule.jpeg)
+![](assets/images/empty-schedule.jpeg)
 
-![](Develop/images/full-ish-schedule.jpeg)
+![](assets/images/full-ish-schedule.jpeg)
 
 
 

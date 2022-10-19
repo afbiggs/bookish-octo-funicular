@@ -24,6 +24,6 @@ The scheduler is simple to use and only requires the user to type into the appro
 
   https://afbiggs.github.io/bookish-octo-funicular/
     
-* Access project repositry to review workflow and indivual documents, images and/or commits. 
+* Access project repository to review workflow and individual documents, images and/or commits. 
 
     https://github.com/afbiggs/bookish-octo-funicular

@@ -15,12 +15,12 @@ $(document).ready(function () {
         localStorage.setItem(time, value); 
 
         // Show notification that item was saved to localStorage by adding class 'show'
-        $('.notification').addClass('show');
+    //     $('.notification').addClass('show');
 
-        // Timeout to remove 'show' class after 5 seconds
-        setTimeout(function () {
-            $('.notification').removeClass('show')
-        }, 5000);
+    //     // Timeout to remove 'show' class after 5 seconds
+    //     setTimeout(function () {
+    //         $('.notification').removeClass('show')
+    //     }, 5000);
     });
 
     function hourUpdater() {
@@ -32,7 +32,7 @@ $(document).ready(function () {
             var blockHour = parseInt($(this).attr('id').split('-')[1]);
         
       
-        // inside this loop, if we have moved past the time, the row will be grey. If it's future, the row will be green. If it's the present time, it will be red. Using the past, present, and future classes in css file.
+        // inside this loop, if we have moved past the hour-block the row will be grey. If the hour-block is in the future then it will be green. If it's the present time, it will be red. Using the past, present, and future classes in css file.
             if (blockHour < currentHour) {
                 $(this).addClass('past');
             } else if (blockHour === currentHour) {
@@ -49,7 +49,6 @@ $(document).ready(function () {
     }
 
     hourUpdater();
-
     // Interval to check if current time needs to be updated
     var interval = setInterval(hourUpdater, 15000);
 

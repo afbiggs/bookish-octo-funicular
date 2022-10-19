@@ -6,15 +6,24 @@ This repository contains code for an online Work-Day Scheduler. The interface is
 ## Usage 
 The scheduler is simple to use and only requires the user to type into the appropriate time-block and then click the "save" icon on the right side of of each row. The User will need to click the save icon for each row they wish to schedule. After saving, the user should notice a notification pop up at the top of the scheduler that says "Appointment Added to Local Storage".
 
-Below are screenshots of the working application. 
+*Below are screenshots of the working application.*
 
-*note* All rows are green in the demo because it conducted after midnight. The date automatically changes to the following day and the scheduler color coding will reset. 
+***Note*** - All rows are green in the demo because it conducted after midnight. The date automatically changes to the following day and the scheduler color coding will reset. 
 
+![](Develop/images/empty-schedule.jpeg)
 
-
+![](Develop/images/full-ish-schedule.jpeg)
 
 
 
 
 
 ## Accessibility
+
+* Direct access to deployed application:
+
+    https://afbiggs.github.io/challenge-01/
+    
+* Access project repositry to review workflow and indivual documents, images and/or commits. 
+
+    https://github.com/afbiggs/challenge-01

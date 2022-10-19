@@ -10,9 +10,9 @@ The scheduler is simple to use and only requires the user to type into the appro
 
 ***Note*** - All rows are green in the demo because it conducted after midnight. The date automatically changes to the following day and the scheduler color coding will reset. 
 
-![](assets/images/empty-schedule.jpeg)
+![](images/empty-schedule.jpeg)
 
-![](assets/images/full-ish-schedule.jpeg)
+![](images/full-ish-schedule.jpeg)
 
 
 
@@ -22,8 +22,8 @@ The scheduler is simple to use and only requires the user to type into the appro
 
 * Direct access to deployed application:
 
-    https://afbiggs.github.io/challenge-01/
+  https://afbiggs.github.io/bookish-octo-funicular/
     
 * Access project repositry to review workflow and indivual documents, images and/or commits. 
 
-    https://github.com/afbiggs/challenge-01
+    https://github.com/afbiggs/bookish-octo-funicular

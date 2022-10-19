@@ -1,4 +1,4 @@
-// display current date on page
+// Display current date on page
 var todaysDate = moment().format('dddd, MMMM Do YYYY');
 $('#currentDay').html(todaysDate);
 
@@ -19,7 +19,7 @@ $(document).ready(function () {
 
         // Timeout to remove 'show' class after 5 seconds
         setTimeout(function () {
-            $('.notification').removeClass('show');
+            $('.notification').removeClass('show')
         }, 5000);
     });
 
@@ -32,7 +32,7 @@ $(document).ready(function () {
             var blockHour = parseInt($(this).attr('id').split('-')[1]);
         
       
-        // inside this loop, if we have moved past the time, make the row grey. If it's future, make it green. If it's past, make it red. Using the past, present, and future classes in css file.
+        // inside this loop, if we have moved past the time, the row will be grey. If it's future, the row will be green. If it's the present time, it will be red. Using the past, present, and future classes in css file.
             if (blockHour < currentHour) {
                 $(this).addClass('past');
             } else if (blockHour === currentHour) {
@@ -50,10 +50,10 @@ $(document).ready(function () {
 
     hourUpdater();
 
-    // set up interval to check if current time needs to be updated
+    // Interval to check if current time needs to be updated
     var interval = setInterval(hourUpdater, 15000);
 
-    // load any saved data from localStorage
+    // Saved data from localStorage
     $('#hour-9 .description').val(localStorage.getItem('hour-9'));
     $('#hour-10 .description').val(localStorage.getItem('hour-10'));
     $('#hour-11 .description').val(localStorage.getItem('hour-11'));
